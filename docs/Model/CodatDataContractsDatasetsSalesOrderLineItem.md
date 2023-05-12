@@ -1,0 +1,20 @@
+# # CodatDataContractsDatasetsSalesOrderLineItem
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**description** | **string** |  | [optional]
+**account_ref** | [**\TheLogicStudio\CodatPHP\Model\CodatDataContractsDatasetsAccountRef**](CodatDataContractsDatasetsAccountRef.md) |  | [optional]
+**item_ref** | [**\TheLogicStudio\CodatPHP\Model\CodatDataContractsDatasetsItemRef**](CodatDataContractsDatasetsItemRef.md) |  | [optional]
+**tracking** | [**\TheLogicStudio\CodatPHP\Model\CodatDataContractsDatasetsTracking**](CodatDataContractsDatasetsTracking.md) |  | [optional]
+**unit_amount** | **float** |  | [optional]
+**quantity** | **float** |  | [optional]
+**discount_amount** | **float** |  | [optional]
+**discount_percentage** | **float** |  | [optional]
+**sub_total** | **float** |  | [optional]
+**tax_amount** | **float** |  | [optional]
+**tax_rate_ref** | [**\TheLogicStudio\CodatPHP\Model\CodatDataContractsDatasetsTaxRateRef**](CodatDataContractsDatasetsTaxRateRef.md) |  | [optional]
+**total_amount** | **float** |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
