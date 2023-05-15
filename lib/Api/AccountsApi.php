@@ -822,7 +822,7 @@ class AccountsApi
     {
         $request = $this->companiesCompanyIdDataAccountsGetRequest($company_id, $page, $page_size, $query, $order_by, $contentType);
 
-		try {
+        try {
             $options = $this->createHttpClientOption();
             try {
                 $response = $this->client->send($request, $options);

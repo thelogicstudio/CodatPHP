@@ -343,10 +343,6 @@ class CodatPublicApiModelsCompanyCompany implements ModelInterface, ArrayAccess,
         if ($this->container['platform'] === null) {
             $invalidProperties[] = "'platform' can't be null";
         }
-        if ((mb_strlen($this->container['platform']) < 1)) {
-            $invalidProperties[] = "invalid value for 'platform', the character length must be bigger than or equal to 1.";
-        }
-
         if ($this->container['redirect'] === null) {
             $invalidProperties[] = "'redirect' can't be null";
         }
@@ -487,11 +483,6 @@ class CodatPublicApiModelsCompanyCompany implements ModelInterface, ArrayAccess,
         if (is_null($platform)) {
             throw new \InvalidArgumentException('non-nullable platform cannot be null');
         }
-
-        if ((mb_strlen($platform) < 1)) {
-            throw new \InvalidArgumentException('invalid length for $platform when calling CodatPublicApiModelsCompanyCompany., must be bigger than or equal to 1.');
-        }
-
         $this->container['platform'] = $platform;
 
         return $this;
