@@ -12,7 +12,13 @@
     "license": "mit",
     "authors": [
         {
-            "name": "Ian Simpson"
+            "name": "The Logic Studio",
+            "homepage": "https://logicstudio.nz",
+            "email": "hello@logicstudio.nz"
+        },
+        {
+            "name": "Ian Simpson",
+            "email": "ian@logicstudio.nz"
         }
     ],
     "require": {
